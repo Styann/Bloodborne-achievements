@@ -3,21 +3,6 @@ div.achievement-list-header {
     background-color: transparent;
 }
 
-div.achievement-list input {
-    outline: none;
-    background-color: var(--steam-page-background);
-    color: white;
-    border: none;
-    padding: 1em;
-}
-
-div.achievement-list select {
-    background-color: transparent;
-    color: white;
-    border: none;
-    padding: 1em;
-}
-
 div.achievement-list-body {
     background-color: var(--steam-page-background);
     padding: 0 2ch;

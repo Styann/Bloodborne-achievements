@@ -63,10 +63,10 @@ p.achievement-unlocked-at {
 }
 
 /* locked style */
-.achievement.locked img.achievement-cover {
+li.achievement.locked img.achievement-cover {
     filter: grayscale();
 }
 
-.achievement.locked p.achievement-players-percentage {
+li.achievement.locked p.achievement-players-percentage {
     display: none;
 }

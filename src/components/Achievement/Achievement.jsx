@@ -1,13 +1,16 @@
 // stylesheets
 import './Achievement.css';
 
+// i18n
+import i18n from '../../i18n.js';
+
 /**
  * @format 'en' or 'fr'
  */
-function formatUnlockedAt(unlockedAt, format = 'en') {
+function formatUnlockedAt(unlockedAt, language = 'en') {
     const prefix = 'Débloqué le ';
 
-    return prefix + unlockedAt.toLocaleString('fr-FR', {
+    return prefix + unlockedAt.toLocaleString(language, {
         day: "2-digit",
         month: "short",
         year: "numeric",
@@ -25,8 +28,8 @@ export default function Achievement(props) {
             : 'locked';
 
     let coverPath = `src/assets/trophies/${props.id}.png`;
-    let name = props.name.fr;
-    let description = props.description.fr;
+    let name = props.name[i18n.language];
+    let description = props.description[i18n.language];
 
     if (state === 'secret') {
         coverPath = 'src/assets/secret-achievement.png';
@@ -46,9 +49,9 @@ export default function Achievement(props) {
                 <p className='achievement-players-percentage'></p>
             </div>
 
-            {(state === 'unlocked') && <>
-                <p className='achievement-unlocked-at'>{formatUnlockedAt(props.unlockedAt)}</p>
-            </>}
+            {(state === 'unlocked') && (
+                <p className='achievement-unlocked-at'>{formatUnlockedAt(props.unlockedAt, i18n.language)}</p>
+            )}
         </li>
     );
 }

@@ -1,0 +1,14 @@
+label.trophy-file-input-label {
+    color: white;
+    font-size: 14px;
+}
+
+div.trophy-file-input-dropzone {
+    border: 1px dashed var(--steam-achievement-bar-inner-color);
+    border-radius: 10px;
+    height: 140px;
+
+    display: grid;
+    place-content: center;
+    color: var(--steam-achievement-description);
+}

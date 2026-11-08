@@ -1,6 +1,9 @@
 // stylesheets
 import './AchievementBar.css';
 
+// i18n
+import i18n from '../../i18n.js';
+
 export default function AchievementBar(props) {
     const percentage = Math.floor(props.unlocked / props.total * 100);
 
@@ -10,7 +13,7 @@ export default function AchievementBar(props) {
 
             <div className='achievement-bar-data'>
                 <div className='achievement-bar-header'>
-                    {props.unlocked}/{props.total} succès débloqués <span className='achievement-bar-header-percentage'>({percentage} %)</span>
+                    {props.unlocked}/{props.total} {i18n.t('achievementBar.unlocked')} <span className='achievement-bar-header-percentage'>({percentage} %)</span>
                 </div>
 
                 <div className='achievement-bar-outer-bar'>

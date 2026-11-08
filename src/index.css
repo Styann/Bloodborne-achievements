@@ -5,6 +5,8 @@
     --steam-achievement-description: #b8bcbf;
     --steam-achievement-players-percentage: #898797;
     --steam-achievement-unlocked-at: #898797;
+    --steam-achievement-bar-outer-color: black;
+    --steam-achievement-bar-inner-color: #1a9fff;
 }
 
 body {
@@ -16,11 +18,32 @@ body {
     width: 1126px;
     max-width: 100%;
     margin: 0 auto;
-    text-align: center;
     min-height: 100svh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 50px 0px;
     font-family: "Motiva Sans", Arial, sans-serif;
+}
+
+input[type="file"] {
+    outline: none;
+    color: white;
+    border: none;
+    padding: 1em 0;
+}
+
+input[type="text"] {
+    outline: none;
+    background-color: var(--steam-page-background);
+    color: white;
+    border: none;
+    padding: 1em;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 1em;
 }

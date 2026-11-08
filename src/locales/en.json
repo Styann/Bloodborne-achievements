@@ -1,0 +1,18 @@
+{
+    "input": {
+        "text": "Search...",
+        "file": "Drop your file anywhere"
+    },
+    "achievementBar": {
+        "unlocked": "achievements unlocked"
+    },
+    "achievements": {
+        "all": "All achievements",
+        "unlocked": "Unlocked achievements",
+        "locked": "Locked achievements",
+        "secret": "Secret achievements"
+    },
+    "achievement": {
+        "unlockedAt": "Unlocked "
+    }
+}

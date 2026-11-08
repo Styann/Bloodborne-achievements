@@ -1,0 +1,18 @@
+{
+    "input": {
+        "text": "Rechercher...",
+        "file": "Déposez votre fichier n’importe où"
+    },
+    "achievementBar": {
+        "unlocked": "succès débloqués"
+    },
+    "achievements": {
+        "all": "Tous les succès",
+        "unlocked": "Succès débloqués",
+        "locked": "Succès verrouillés",
+        "secret": "Succès masqués"
+    },
+    "achievement": {
+        "unlockedAt": "Débloqué le "
+    }
+}

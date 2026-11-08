@@ -4,6 +4,9 @@ import './Achievement.css';
 // i18n
 import i18n from '../../i18n.js';
 
+// assets
+import SecretAchievement from '../../assets/secret-achievement.png';
+
 /**
  * @format 'en' or 'fr'
  */
@@ -20,6 +23,15 @@ function formatUnlockedAt(unlockedAt, language = 'en') {
     });
 }
 
+const trophiesAssets = import.meta.glob(
+    '../../assets/trophies/*.png',
+    {
+        eager: true,
+        import: 'default',
+        query: '?url'
+    }
+);
+
 export default function Achievement(props) {
     const state = (props.unlockedAt instanceof Date)
         ? 'unlocked'
@@ -27,12 +39,12 @@ export default function Achievement(props) {
             ? 'secret'
             : 'locked';
 
-    let coverPath = `src/assets/trophies/${props.id}.png`;
+    let cover = trophiesAssets[`../../assets/trophies/${props.id}.png`];
     let name = props.name[i18n.language];
     let description = props.description[i18n.language];
 
     if (state === 'secret') {
-        coverPath = 'src/assets/secret-achievement.png';
+        cover = SecretAchievement;
         name = 'Succès masqué';
         description = "Les informations liées à ce succès ne seront révélées qu'une fois que vous l'aurez débloqué.";
     }
@@ -40,7 +52,7 @@ export default function Achievement(props) {
     return (
         <li className={`achievement ${state}`}>
             <div className='achievement-cover-wrapper'>
-                <img className='achievement-cover' src={coverPath} alt=""/>
+                <img className='achievement-cover' src={cover} alt={`achievement ${props.id}`}/>
             </div>
 
             <div className='achievement-data'>

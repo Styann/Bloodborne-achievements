@@ -1,0 +1,37 @@
+div.achievement-list-header {
+    padding: 2ch;
+    background-color: transparent;
+}
+
+div.achievement-list input {
+    outline: none;
+    background-color: var(--steam-page-background);
+    color: white;
+    border: none;
+    padding: 1em;
+}
+
+div.achievement-list select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 1em;
+}
+
+div.achievement-list-body {
+    background-color: var(--steam-page-background);
+    padding: 0 2ch;
+}
+
+ul.achievement-list {
+    margin: 0;
+    padding: 0;
+}
+ul.achievement-list > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+
+p.sublist-title {
+    text-align: left;
+    color: white;
+}

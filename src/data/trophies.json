@@ -1,0 +1,483 @@
+
+{
+  "game": "Bloodborne",
+  "dlc": "The Old Hunters",
+  "total_trophies": 40,
+  "base_game_total_trophies": 34,
+  "dlc_total_trophies": 6,
+  "trophy_counts": {
+    "platinum": 1,
+    "gold": 7,
+    "silver": 8,
+    "bronze": 24
+  },
+  "trophies": [
+    {
+      "id": 1,
+      "name": {"en": "Bloodborne", "fr": "Bloodborne"},
+      "description": {
+        "en": "All trophies acquired. Hats off!",
+        "fr": "Tous les trophées obtenus. Chapeau bas !"
+      },
+      "type": "platinum",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 2,
+      "name": {"en": "Yharnam Sunrise", "fr": "Aube de Yharnam"},
+      "description": {
+        "en": "You lived through the hunt, and saw another day.",
+        "fr": "Vous avez survécu à la chasse pour profiter d'un autre jour."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 3,
+      "name": {"en": "Honoring Wishes", "fr": "Respect des volontés"},
+      "description": {
+        "en": "Captivated by the Moon Presence, you pledge to watch over the Hunter's Dream.",
+        "fr": "En admiration face à la Présence lunaire, vous vous engagez à protéger le rêve du chasseur."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 4,
+      "name": {"en": "Childhood's Beginning", "fr": "Début de l'enfance"},
+      "description": {
+        "en": "You became an infant Great One, lifting humanity into its next childhood.",
+        "fr": "Vous êtes un Grand nouveau-né, guidant l'humanité vers sa prochaine enfance."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 5,
+      "name": {"en": "Yharnam, Pthumerian Queen", "fr": "Yharnam, reine pthumérienne"},
+      "description": {
+        "en": "Defeat Yharnam, Blood Queen of the Old Labyrinth.",
+        "fr": "Vaincre Yharnam, Reine du sang de l'ancien labyrinthe."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 6,
+      "name": {"en": "Hunter's Essence", "fr": "Essence du Chasseur"},
+      "description": {
+        "en": "Acquire all hunter weapons.",
+        "fr": "Obtenir toutes les armes de chasseurs."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 7,
+      "name": {"en": "Hunter's Craft", "fr": "Artisan chasseur"},
+      "description": {
+        "en": "Acquire all special hunter tools.",
+        "fr": "Obtenir tous les outils spéciaux de chasseur."
+      },
+      "type": "gold",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 8,
+      "name": {"en": "Weapon Master", "fr": "Maître des armes"},
+      "description": {
+        "en": "Acquire a weapon of the highest level.",
+        "fr": "Obtenir une arme au niveau maximum."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 9,
+      "name": {"en": "Blood Gem Master", "fr": "Maître des gemmes de sang"},
+      "description": {
+        "en": "Acquire an extremely precious blood gem.",
+        "fr": "Obtenir une gemme de sang extrêmement précieuse."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 10,
+      "name": {"en": "Rune Master", "fr": "Maître des runes"},
+      "description": {
+        "en": "Acquire an extremely precious Caryll Rune.",
+        "fr": "Obtenir une rune de Caryll extrêmement précieuse."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 11,
+      "name": {"en": "Cainhurst", "fr": "Cainhurst"},
+      "description": {
+        "en": "Gain entry to Cainhurst, the lost and ruined castle.",
+        "fr": "Accéder au château de Cainhurst, perdu et en ruines."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 12,
+      "name": {"en": "The Choir", "fr": "Le Chœur"},
+      "description": {
+        "en": "Gain entry to the realm of the Choir, the high stratum of the Healing Church.",
+        "fr": "Accéder au royaume du Chœur, le haut rang de l'Église du Remède."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 13,
+      "name": {"en": "The Source of the Dream", "fr": "La source du rêve"},
+      "description": {
+        "en": "Discover the abandoned Old Workshop, the source of the Hunter's Dream.",
+        "fr": "Découvrir l'ancien atelier abandonné, source du rêve du chasseur."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 14,
+      "name": {
+        "en": "Nightmare Lecture Building",
+        "fr": "Bâtiment de conférences du cauchemar"
+      },
+      "description": {
+        "en": "Gain entry into the Byrgenwerth lecture building, that drifts within the realm of nightmare.",
+        "fr": "Accéder au bâtiment de conférences de Byrgenwerth, flottant dans le royaume du cauchemar."
+      },
+      "type": "silver",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 15,
+      "name": {"en": "Father Gascoigne", "fr": "Père Gascoigne"},
+      "description": {
+        "en": "Defeat the beast that once was Father Gascoigne.",
+        "fr": "Vaincre la bête qui fut autrefois le père Gascoigne."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 16,
+      "name": {"en": "Vicar Amelia", "fr": "Vicaire Amelia"},
+      "description": {
+        "en": "Defeat the beast that once was Vicar Amelia.",
+        "fr": "Vaincre la bête qui fut autrefois le vicaire Amelia."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 17,
+      "name": {"en": "Shadow of Yharnam", "fr": "Ombre de Yharnam"},
+      "description": {
+        "en": "Defeat the Shadow of Yharnam.",
+        "fr": "Vaincre l'Ombre de Yharnam."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 18,
+      "name": {
+        "en": "Rom, the Vacuous Spider",
+        "fr": "Rom, l'araignée stupide"
+      },
+      "description": {
+        "en": "Defeat Great One: Rom, the Vacuous Spider.",
+        "fr": "Vaincre le Grand : Rom, l'araignée stupide."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 19,
+      "name": {"en": "The One Reborn", "fr": "Le Monstre renaissant"},
+      "description": {
+        "en": "Defeat the One Reborn.",
+        "fr": "Vaincre le Monstre renaissant."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 20,
+      "name": {
+        "en": "Micolash, Host of the Nightmare",
+        "fr": "Micolash, hôte du cauchemar"
+      },
+      "description": {
+        "en": "Defeat Micolash, Host of the Nightmare.",
+        "fr": "Vaincre Micolash, hôte du cauchemar."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 21,
+      "name": {"en": "Mergo's Wet Nurse", "fr": "Nourrice de Mergo"},
+      "description": {
+        "en": "Defeat Great One: Mergo's Wet Nurse.",
+        "fr": "Vaincre le Grand : Nourrice de Mergo."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 22,
+      "name": {"en": "Cleric Beast", "fr": "Clerc bestial"},
+      "description": {
+        "en": "Defeat the Cleric Beast.",
+        "fr": "Vaincre le Clerc bestial."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 23,
+      "name": {"en": "Blood-starved Beast", "fr": "Bête affamée de sang"},
+      "description": {
+        "en": "Defeat the Blood-starved Beast.",
+        "fr": "Vaincre la Bête affamée de sang."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 24,
+      "name": {"en": "The Witch of Hemwick", "fr": "Sorcière de Hemwick"},
+      "description": {
+        "en": "Defeat the Witch of Hemwick.",
+        "fr": "Vaincre la Sorcière de Hemwick."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 25,
+      "name": {"en": "Darkbeast Paarl", "fr": "Sombrebête Paarl"},
+      "description": {
+        "en": "Defeat Darkbeast Paarl.",
+        "fr": "Vaincre la Sombrebête Paarl."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 26,
+      "name": {"en": "Amygdala", "fr": "Amygdala"},
+      "description": {
+        "en": "Defeat Great One: Amygdala.",
+        "fr": "Vaincre le Grand : Amygdala."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 27,
+      "name": {"en": "Martyr Logarius", "fr": "Martyr Logarius"},
+      "description": {
+        "en": "Defeat Martyr Logarius.",
+        "fr": "Vaincre le martyr Logarius."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 28,
+      "name": {"en": "Celestial Emissary", "fr": "Émissaire céleste"},
+      "description": {
+        "en": "Defeat Great One: Celestial Emissary.",
+        "fr": "Vaincre le Grand : Émissaire céleste."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 29,
+      "name": {
+        "en": "Ebrietas, Daughter of the Cosmos",
+        "fr": "Ebrietas, fille du cosmos"
+      },
+      "description": {
+        "en": "Defeat Great One: Ebrietas, Daughter of the Cosmos.",
+        "fr": "Vaincre le Grand : Ebrietas, fille du cosmos."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 30,
+      "name": {"en": "Blood Gem Contact", "fr": "Contact avec une gemme de sang"},
+      "description": {
+        "en": "Acquire a blood gem that imbues hunter weapons with special strength.",
+        "fr": "Obtenir une gemme de sang qui confère une puissance spéciale aux armes de chasseurs."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 31,
+      "name": {"en": "Rune Contact", "fr": "Contact pour rune"},
+      "description": {
+        "en": "Acquire a Caryll Rune that endows hunters with special strength.",
+        "fr": "Obtenir une rune de Caryll octroyant aux chasseurs une puissance spéciale."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 32,
+      "name": {"en": "Chalice of Pthumeru", "fr": "Calice de Pthumeru"},
+      "description": {
+        "en": "Acquire the Chalice of Pthumeru that seals the catacombs that form a web deep below Yharnam.",
+        "fr": "Obtenir le Calice de Pthumeru scellant le réseau complexe des catacombes dans les profondeurs de Yharnam."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": false
+    },
+    {
+      "id": 33,
+      "name": {
+        "en": "Chalice of Ailing Loran",
+        "fr": "Calice de l'infortunée Loran"
+      },
+      "description": {
+        "en": "Acquire the Chalice of Ailing Loran that seals the tragic land lost to the sands.",
+        "fr": "Obtenir le Calice de l'infortunée Loran scellant la région disparue tragiquement dans les sables."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 34,
+      "name": {"en": "Chalice of Isz", "fr": "Calice d'Isz"},
+      "description": {
+        "en": "Acquire the Great Chalice of Isz that seals the home of the cosmic kin.",
+        "fr": "Obtenir le Grand calice d'Isz scellant la demeure de la famille cosmique."
+      },
+      "type": "bronze",
+      "dlc": false,
+      "secret": true
+    },
+    {
+      "id": 35,
+      "name": {
+        "en": "Old Hunter's Essence",
+        "fr": "Essence de chasseur du temps jadis"
+      },
+      "description": {
+        "en": "Acquire all old hunter weapons.",
+        "fr": "Obtenir toutes les armes de chasseurs du temps jadis."
+      },
+      "type": "gold",
+      "dlc": true,
+      "secret": false
+    },
+    {
+      "id": 36,
+      "name": {"en": "Orphan of Kos", "fr": "Orphelin de Kos"},
+      "description": {
+        "en": "Defeat Great One: Orphan of Kos.",
+        "fr": "Vaincre le Grand : Orphelin de Kos."
+      },
+      "type": "silver",
+      "dlc": true,
+      "secret": true
+    },
+    {
+      "id": 37,
+      "name": {
+        "en": "Ludwig, the Holy Blade",
+        "fr": "Ludwig, l'Épée sacrée"
+      },
+      "description": {
+        "en": "Defeat the beast that was once Ludwig, the Holy Blade.",
+        "fr": "Vaincre le monstre qui était jadis Ludwig, l'Épée sacrée."
+      },
+      "type": "bronze",
+      "dlc": true,
+      "secret": true
+    },
+    {
+      "id": 38,
+      "name": {
+        "en": "Lady Maria of the Astral Clocktower",
+        "fr": "Lady Maria de la Tour astrale"
+      },
+      "description": {
+        "en": "Defeat Lady Maria of the Astral Clocktower.",
+        "fr": "Vaincre Lady Maria de la Tour astrale."
+      },
+      "type": "bronze",
+      "dlc": true,
+      "secret": true
+    },
+    {
+      "id": 39,
+      "name": {"en": "Living Failures", "fr": "Expériences ratées"},
+      "description": {
+        "en": "Defeat the failed attempts to become Great Ones.",
+        "fr": "Vaincre les expériences ayant échoué à devenir des Grands."
+      },
+      "type": "bronze",
+      "dlc": true,
+      "secret": true
+    },
+    {
+      "id": 40,
+      "name": {
+        "en": "Laurence, the First Vicar",
+        "fr": "Laurence, le premier vicaire"
+      },
+      "description": {
+        "en": "Defeat the beast that was once Laurence, the First Vicar.",
+        "fr": "Vaincre le monstre qui était jadis Laurence, le premier vicaire."
+      },
+      "type": "bronze",
+      "dlc": true,
+      "secret": true
+    }
+  ]
+}

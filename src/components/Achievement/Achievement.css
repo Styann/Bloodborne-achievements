@@ -1,0 +1,72 @@
+li.achievement {
+    display: grid;
+    grid-template-columns: min-content auto auto;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+
+    padding: 10px;
+
+    background-color: var(--steam-page-background);
+}
+
+li.achievement p {
+    margin: 0;
+}
+
+div.achievement-cover-wrapper {
+    grid-area: 1 / 1 / 2 / 2;
+    display: grid;
+    place-content: center;
+}
+
+img.achievement-cover {
+    width: 64px;
+    height: 64px;
+}
+
+div.achievement-data {
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-flow: column;
+}
+
+div.achievement-name {
+    text-align: left;
+    color: var(--steam-achievement-name);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p.achievement-description {
+    text-align: left;
+    color: var(--steam-achievement-description);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+p.achievement-players-percentage {
+    text-align: left;
+    color: var(--steam-achievement-players-percentage);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+p.achievement-unlocked-at {
+    grid-area: 1 / 3 / 2 / 4;
+
+    color: var(--steam-achievement-unlocked-at);
+    text-align: right;
+    align-self: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* locked style */
+.achievement.locked img.achievement-cover {
+    filter: grayscale();
+}
+
+.achievement.locked p.achievement-players-percentage {
+    display: none;
+}

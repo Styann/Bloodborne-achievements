@@ -1,0 +1,26 @@
+:root {
+    --steam-background: #1b2838;
+    --steam-page-background: #23262e;
+    --steam-achievement-name: #dcdedf;
+    --steam-achievement-description: #b8bcbf;
+    --steam-achievement-players-percentage: #898797;
+    --steam-achievement-unlocked-at: #898797;
+}
+
+body {
+    margin: 0;
+    background-color: var(--steam-background);
+}
+
+#root {
+    width: 1126px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px 0px;
+    font-family: "Motiva Sans", Arial, sans-serif;
+}
